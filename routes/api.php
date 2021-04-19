@@ -21,4 +21,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::group(['prefix'=>'user'],function (){
 
     Route::post('/login','API\UserApiController@login');
+
+    Route::post('/set-token','API\UserApiController@setToken');
 });
