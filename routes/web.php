@@ -21,3 +21,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/create-demo-user', 'HomeController@create')->name('create');
+
+Route::post('/add-post', 'PostController@addPost')->name('add-post');
