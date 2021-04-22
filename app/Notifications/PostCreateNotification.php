@@ -55,7 +55,7 @@ class PostCreateNotification extends Notification
         $message = new FcmMessage();
         $notification = [
             'title' => $this->post->title,
-            'text' => $this->post->body,
+            'body' => $this->post->body,
         ];
         $data = [
             'click_action' => "FLUTTER_NOTIFICATION_CLICK",
