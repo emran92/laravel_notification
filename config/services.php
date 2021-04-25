@@ -30,7 +30,7 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
     'fcm' => [
-        'key' => 'AAAAAPMsqZ8:APA91bG2RecET9cZmxNo2HJh65zTd_niAw54EUSQ70M3vWT5sFVEEuLBfy26Dx_166s_1FhHaynylYSD_5K84dW_jBWkpi5i9d1nPSVE2atvOl1CvslHYEimDegaxQQGeoWf9GUnTHgx'
+        'key' => 'FCM SERVER KEY'
     ]
 
 ];
